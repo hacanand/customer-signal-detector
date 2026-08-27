@@ -1,0 +1,57 @@
+[
+  {
+    "customer_id": "CUS-1001",
+    "name": "Northstar Health",
+    "plan": "Enterprise",
+    "monthly_value": 12800,
+    "satisfaction_score": 1,
+    "support_tickets_30d": 8,
+    "usage_change_pct": -42,
+    "payment_failed": false,
+    "transcript": "We are extremely frustrated. The reporting workflow is still not working and we are considering cancellation if this is not resolved urgently."
+  },
+  {
+    "customer_id": "CUS-1002",
+    "name": "Acme Labs",
+    "plan": "Growth",
+    "monthly_value": 4200,
+    "satisfaction_score": 2,
+    "support_tickets_30d": 6,
+    "usage_change_pct": -31,
+    "payment_failed": true,
+    "transcript": "We are still waiting for a resolution to our billing issue. This is unacceptable for our team."
+  },
+  {
+    "customer_id": "CUS-1003",
+    "name": "Bluebird Retail",
+    "plan": "Scale",
+    "monthly_value": 7600,
+    "satisfaction_score": 3,
+    "support_tickets_30d": 3,
+    "usage_change_pct": -18,
+    "payment_failed": false,
+    "transcript": "The new dashboard is confusing, but we are testing it with a small group."
+  },
+  {
+    "customer_id": "CUS-1004",
+    "name": "Cedar Finance",
+    "plan": "Enterprise",
+    "monthly_value": 15400,
+    "satisfaction_score": 4,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 6,
+    "payment_failed": false,
+    "transcript": "Great onboarding experience. The team is actively using alerts and exports."
+  },
+  {
+    "customer_id": "CUS-1005",
+    "name": "Mosaic Studio",
+    "plan": "Starter",
+    "monthly_value": 900,
+    "satisfaction_score": 2,
+    "support_tickets_30d": 2,
+    "usage_change_pct": -36,
+    "payment_failed": false,
+    "transcript": "We are disappointed that the integration is broken for our workflow."
+  }
+]

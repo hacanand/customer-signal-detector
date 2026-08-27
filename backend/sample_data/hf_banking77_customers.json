@@ -1,0 +1,2106 @@
+[
+  {
+    "customer_id": "HF-00001",
+    "name": "Banking77 Account 1",
+    "plan": "Starter",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 9.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "How can I make my contactless work for the metro?"
+      }
+    ],
+    "source": "huggingface:contactless_not_working"
+  },
+  {
+    "customer_id": "HF-00002",
+    "name": "Banking77 Account 2",
+    "plan": "Scale",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 12.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "My card was taken from me"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "Someone stole my card. I need to report it stolen. I made a police report already, but how do I report it with you?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "I can't find my card and think it may have been stolen."
+      }
+    ],
+    "source": "huggingface:lost_or_stolen_card"
+  },
+  {
+    "customer_id": "HF-00003",
+    "name": "Banking77 Account 3",
+    "plan": "Starter",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": 2.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Is there a fee for exchanging foreign currencies?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "How much will I pay to exchange foreign currency?"
+      }
+    ],
+    "source": "huggingface:exchange_charge"
+  },
+  {
+    "customer_id": "HF-00004",
+    "name": "Banking77 Account 4",
+    "plan": "Starter",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": -5.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I think my identity has been stolen, can you check on unauthorized charges?"
+      }
+    ],
+    "source": "huggingface:compromised_card"
+  },
+  {
+    "customer_id": "HF-00005",
+    "name": "Banking77 Account 5",
+    "plan": "Growth",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": -6.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "How do you fix  my card payment?"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "I have a card payment that was declined, but why?"
+      }
+    ],
+    "source": "huggingface:declined_card_payment"
+  },
+  {
+    "customer_id": "HF-00006",
+    "name": "Banking77 Account 6",
+    "plan": "Scale",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": -1.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "What are the top up charges for US cards?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "What do you charge for top ups?"
+      }
+    ],
+    "source": "huggingface:top_up_by_card_charge"
+  },
+  {
+    "customer_id": "HF-00007",
+    "name": "Banking77 Account 7",
+    "plan": "Growth",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": 12.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "What is this direct debit I am seeing?"
+      }
+    ],
+    "source": "huggingface:direct_debit_payment_not_recognised"
+  },
+  {
+    "customer_id": "HF-00008",
+    "name": "Banking77 Account 8",
+    "plan": "Starter",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 11.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "What is the cause that the transfer shows as pending?"
+      }
+    ],
+    "source": "huggingface:pending_transfer"
+  },
+  {
+    "customer_id": "HF-00009",
+    "name": "Banking77 Account 9",
+    "plan": "Scale",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": -7.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "The receipient doesn't see my money transfer."
+      },
+      {
+        "date": "2026-08-19",
+        "text": "I transferred some money and it didint arrive"
+      },
+      {
+        "date": "2026-08-23",
+        "text": "How long will it take for my transaction to be completed?"
+      }
+    ],
+    "source": "huggingface:transfer_not_received_by_recipient"
+  },
+  {
+    "customer_id": "HF-00010",
+    "name": "Banking77 Account 10",
+    "plan": "Growth",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 10.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Why am I required to do an identity check?"
+      }
+    ],
+    "source": "huggingface:why_verify_identity"
+  },
+  {
+    "customer_id": "HF-00011",
+    "name": "Banking77 Account 11",
+    "plan": "Scale",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 0.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "My card is still pending, I've been waiting a while."
+      }
+    ],
+    "source": "huggingface:pending_card_payment"
+  },
+  {
+    "customer_id": "HF-00012",
+    "name": "Banking77 Account 12",
+    "plan": "Growth",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": 3.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "My recent transfer needs to be cancelled immediately; it was a mistake, please can you cancel it before it goes through?"
+      }
+    ],
+    "source": "huggingface:cancel_transfer"
+  },
+  {
+    "customer_id": "HF-00013",
+    "name": "Banking77 Account 13",
+    "plan": "Starter",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": -4.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I need to update my current address"
+      }
+    ],
+    "source": "huggingface:edit_personal_details"
+  },
+  {
+    "customer_id": "HF-00014",
+    "name": "Banking77 Account 14",
+    "plan": "Growth",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": -5.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I have been charged with a fee for paying with my card."
+      },
+      {
+        "date": "2026-08-19",
+        "text": "Why was a charged a fee for using the card?"
+      },
+      {
+        "date": "2026-08-23",
+        "text": "Why do I get charged additional fees on some payments, but not others?"
+      }
+    ],
+    "source": "huggingface:card_payment_fee_charged"
+  },
+  {
+    "customer_id": "HF-00015",
+    "name": "Banking77 Account 15",
+    "plan": "Starter",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 0.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Some cash is showing up in my app that I did not get."
+      },
+      {
+        "date": "2026-08-19",
+        "text": "I didn't get cash from an ATM, but according to the app a transaction was made when i didn't make it."
+      }
+    ],
+    "source": "huggingface:cash_withdrawal_not_recognised"
+  },
+  {
+    "customer_id": "HF-00016",
+    "name": "Banking77 Account 16",
+    "plan": "Scale",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": -4.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "The see the rate applied to my transaction was wrong at the atm."
+      }
+    ],
+    "source": "huggingface:wrong_exchange_rate_for_cash_withdrawal"
+  },
+  {
+    "customer_id": "HF-00017",
+    "name": "Banking77 Account 17",
+    "plan": "Starter",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 7,
+    "usage_change_pct": -47.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Can you help me get rid of my account?"
+      }
+    ],
+    "source": "huggingface:terminate_account"
+  },
+  {
+    "customer_id": "HF-00018",
+    "name": "Banking77 Account 18",
+    "plan": "Scale",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 7.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Can you help my fix my contactless?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "What can I do if contactless doesn't work?"
+      }
+    ],
+    "source": "huggingface:contactless_not_working"
+  },
+  {
+    "customer_id": "HF-00019",
+    "name": "Banking77 Account 19",
+    "plan": "Scale",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 9.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Can I have it add money at certain time intervals when I travel?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "how do I top up my money automatically"
+      },
+      {
+        "date": "2026-08-23",
+        "text": "What is the auto top up function and where can I find that at?"
+      }
+    ],
+    "source": "huggingface:automatic_top_up"
+  },
+  {
+    "customer_id": "HF-00020",
+    "name": "Banking77 Account 20",
+    "plan": "Starter",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": -6.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I went to top up and it is no longer there.  Was it sent back?"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "I tryed to make a top-up with cryptocurrency but the payment was referted."
+      },
+      {
+        "date": "2026-08-21",
+        "text": "When I topped up, the app reverted my funds."
+      }
+    ],
+    "source": "huggingface:top_up_reverted"
+  },
+  {
+    "customer_id": "HF-00021",
+    "name": "Banking77 Account 21",
+    "plan": "Starter",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": -6.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Are there any restrictions causing my transfer to be declined?"
+      }
+    ],
+    "source": "huggingface:declined_transfer"
+  },
+  {
+    "customer_id": "HF-00022",
+    "name": "Banking77 Account 22",
+    "plan": "Growth",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 0.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I'm just wondering when my card will get here."
+      }
+    ],
+    "source": "huggingface:card_delivery_estimate"
+  },
+  {
+    "customer_id": "HF-00023",
+    "name": "Banking77 Account 23",
+    "plan": "Scale",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 7.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "If I want a physical card, do I have to pay anything?"
+      }
+    ],
+    "source": "huggingface:order_physical_card"
+  },
+  {
+    "customer_id": "HF-00024",
+    "name": "Banking77 Account 24",
+    "plan": "Scale",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": 5.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "My payment was reverted by the app"
+      }
+    ],
+    "source": "huggingface:reverted_card_payment?"
+  },
+  {
+    "customer_id": "HF-00025",
+    "name": "Banking77 Account 25",
+    "plan": "Scale",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": -1.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "My card payment was cancelled."
+      },
+      {
+        "date": "2026-08-19",
+        "text": "My payment was reverted by the app"
+      }
+    ],
+    "source": "huggingface:reverted_card_payment?"
+  },
+  {
+    "customer_id": "HF-00026",
+    "name": "Banking77 Account 26",
+    "plan": "Starter",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 0.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Can I use my card anywere?"
+      }
+    ],
+    "source": "huggingface:card_acceptance"
+  },
+  {
+    "customer_id": "HF-00027",
+    "name": "Banking77 Account 27",
+    "plan": "Scale",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 12.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Can you give me information about verification code?"
+      }
+    ],
+    "source": "huggingface:verify_top_up"
+  },
+  {
+    "customer_id": "HF-00028",
+    "name": "Banking77 Account 28",
+    "plan": "Starter",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": 7.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "My work sends me all over the world, can I get a discount for all the money I have to exchange?"
+      }
+    ],
+    "source": "huggingface:exchange_charge"
+  },
+  {
+    "customer_id": "HF-00029",
+    "name": "Banking77 Account 29",
+    "plan": "Growth",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": 1.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "There is a payment that is not mine in the app.  Please advise/"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "There are some payments with my card that I don't know where they are coming from. Just checked today and it's been since a couple days as well! What to I do? Can I revert this retrospectively? My card needs to be frozen immediately as well!"
+      }
+    ],
+    "source": "huggingface:card_payment_not_recognised"
+  },
+  {
+    "customer_id": "HF-00030",
+    "name": "Banking77 Account 30",
+    "plan": "Starter",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": -7.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Can you help with a transfer to an account"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "My beneficiary is not allowed, please may I have answer as to why this is?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "I tried to transfer money but it said it wasn't possible? I've done this before and it worked why isn't it working now?"
+      }
+    ],
+    "source": "huggingface:beneficiary_not_allowed"
+  },
+  {
+    "customer_id": "HF-00031",
+    "name": "Banking77 Account 31",
+    "plan": "Starter",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 11.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "What kind of currency can I hold money in?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "Do you work with all fiat currencies?"
+      },
+      {
+        "date": "2026-08-23",
+        "text": "Can I hold money in multiple currencies?"
+      }
+    ],
+    "source": "huggingface:fiat_currency_support"
+  },
+  {
+    "customer_id": "HF-00032",
+    "name": "Banking77 Account 32",
+    "plan": "Scale",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 5.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "can you assist me with the auto top up ?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "Can I space out how often money is transferred along my travels?"
+      },
+      {
+        "date": "2026-08-23",
+        "text": "I read about the auto-top up function, but can't find it in the app."
+      }
+    ],
+    "source": "huggingface:automatic_top_up"
+  },
+  {
+    "customer_id": "HF-00033",
+    "name": "Banking77 Account 33",
+    "plan": "Growth",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": 4.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "can google pay be used to make a top-up"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "Is Apple Pay a possible top up option?"
+      },
+      {
+        "date": "2026-08-23",
+        "text": "If I want to top up, can I use Apple Pay?"
+      }
+    ],
+    "source": "huggingface:apple_pay_or_google_pay"
+  },
+  {
+    "customer_id": "HF-00034",
+    "name": "Banking77 Account 34",
+    "plan": "Scale",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 9.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I topped up by card a while ago and it's still pending, surely it should be done by now?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "What does it mean when my top up is saying  still pending?"
+      },
+      {
+        "date": "2026-08-21",
+        "text": "Why hasn't my top-up been completed?"
+      }
+    ],
+    "source": "huggingface:pending_top_up"
+  },
+  {
+    "customer_id": "HF-00035",
+    "name": "Banking77 Account 35",
+    "plan": "Growth",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": 9.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Can you freeze my account?  I just saw there are transactions on my account that I don't recognize.  How can I fix this?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "there is a transaction on my account that i didnt make"
+      },
+      {
+        "date": "2026-08-21",
+        "text": "I'm concerned about a payment that has recently been made on my card.  I do not recognize the name that the transaction went to, can you help me?"
+      }
+    ],
+    "source": "huggingface:card_payment_not_recognised"
+  },
+  {
+    "customer_id": "HF-00036",
+    "name": "Banking77 Account 36",
+    "plan": "Starter",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": -5.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "What should I do if I forgot my passcode?"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "What do I do if I forget my passcode?  Because I did."
+      },
+      {
+        "date": "2026-08-19",
+        "text": "Tell me how to reset the passcode."
+      }
+    ],
+    "source": "huggingface:passcode_forgotten"
+  },
+  {
+    "customer_id": "HF-00037",
+    "name": "Banking77 Account 37",
+    "plan": "Scale",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": -2.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "If I use a European bank card for top up, Do I get charged?"
+      }
+    ],
+    "source": "huggingface:top_up_by_card_charge"
+  },
+  {
+    "customer_id": "HF-00038",
+    "name": "Banking77 Account 38",
+    "plan": "Growth",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 2.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Why is my money gone right when I attempted to top up"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "Can I give my friends access to my account so they can top it up for me?"
+      },
+      {
+        "date": "2026-08-21",
+        "text": "What is the process for using my credit card to transfer money?"
+      }
+    ],
+    "source": "huggingface:topping_up_by_card"
+  },
+  {
+    "customer_id": "HF-00039",
+    "name": "Banking77 Account 39",
+    "plan": "Scale",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": -6.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "why hasn't my top up gone through yet"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "I topped up but it didn't complete"
+      },
+      {
+        "date": "2026-08-21",
+        "text": "Why is my top-up still outstanding?"
+      }
+    ],
+    "source": "huggingface:pending_top_up"
+  },
+  {
+    "customer_id": "HF-00040",
+    "name": "Banking77 Account 40",
+    "plan": "Starter",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": 3.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "How come the ATM gave me less cash than what I asked for?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "I withdrew money but the full amount wasn't dispensed."
+      },
+      {
+        "date": "2026-08-21",
+        "text": "I didn't get the right amount at the ATM."
+      }
+    ],
+    "source": "huggingface:wrong_amount_of_cash_received"
+  },
+  {
+    "customer_id": "HF-00041",
+    "name": "Banking77 Account 41",
+    "plan": "Growth",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": -1.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "my atm cash out is still pending"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "Is my pending cash withdrawal processed?"
+      }
+    ],
+    "source": "huggingface:pending_cash_withdrawal"
+  },
+  {
+    "customer_id": "HF-00042",
+    "name": "Banking77 Account 42",
+    "plan": "Starter",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": -1.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Is there a fee when you pay with your card?"
+      }
+    ],
+    "source": "huggingface:card_payment_fee_charged"
+  },
+  {
+    "customer_id": "HF-00043",
+    "name": "Banking77 Account 43",
+    "plan": "Starter",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": -2.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "What's the most disposable cards I can have?"
+      }
+    ],
+    "source": "huggingface:disposable_card_limits"
+  },
+  {
+    "customer_id": "HF-00044",
+    "name": "Banking77 Account 44",
+    "plan": "Scale",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": 2.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "How can I transfer money from an outside bank?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "What are the steps I follow to transfer money into my account?"
+      }
+    ],
+    "source": "huggingface:transfer_into_account"
+  },
+  {
+    "customer_id": "HF-00045",
+    "name": "Banking77 Account 45",
+    "plan": "Scale",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": -8.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "My card is being used online to make a bunch of purchases! Someone else is using it fraudulently. Can you help me freeze it?"
+      }
+    ],
+    "source": "huggingface:compromised_card"
+  },
+  {
+    "customer_id": "HF-00046",
+    "name": "Banking77 Account 46",
+    "plan": "Starter",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": 2.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I couldn't use my contactless this morning, it wasn't accepted."
+      },
+      {
+        "date": "2026-08-18",
+        "text": "Do I need to make a regular payment before a contactless one?"
+      }
+    ],
+    "source": "huggingface:contactless_not_working"
+  },
+  {
+    "customer_id": "HF-00047",
+    "name": "Banking77 Account 47",
+    "plan": "Starter",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 8.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Why was I charged a fee for a transfer?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "im not paying this transfer fee"
+      },
+      {
+        "date": "2026-08-21",
+        "text": "Why am I seeing a transfer fee?"
+      }
+    ],
+    "source": "huggingface:transfer_fee_charged"
+  },
+  {
+    "customer_id": "HF-00048",
+    "name": "Banking77 Account 48",
+    "plan": "Scale",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 1.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I checked the app and saw an extra cash withdrawal that I didn't authorize"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "The app is showing an ATM withdrawl that I didn't make."
+      },
+      {
+        "date": "2026-08-21",
+        "text": "There is an error, the app says I made an ATM withdrawal and I didn't."
+      }
+    ],
+    "source": "huggingface:cash_withdrawal_not_recognised"
+  },
+  {
+    "customer_id": "HF-00049",
+    "name": "Banking77 Account 49",
+    "plan": "Growth",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 5.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "My cash withdrawal charged me the wrong exchange rate"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "I took out a foreign currency and the exchange rate is wrong."
+      }
+    ],
+    "source": "huggingface:wrong_exchange_rate_for_cash_withdrawal"
+  },
+  {
+    "customer_id": "HF-00050",
+    "name": "Banking77 Account 50",
+    "plan": "Starter",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": -2.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "How can I get my card back out?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "What happens if my card is stuck in the ATM?"
+      },
+      {
+        "date": "2026-08-23",
+        "text": "The ATM won't give back my card"
+      }
+    ],
+    "source": "huggingface:card_swallowed"
+  },
+  {
+    "customer_id": "HF-00051",
+    "name": "Banking77 Account 51",
+    "plan": "Starter",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": -6.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I got charged and extra fee when I transferred money so why was I charged?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "I thought transfers were free, why was I charged a fee?"
+      },
+      {
+        "date": "2026-08-23",
+        "text": "Why was my transfer charged fees?"
+      }
+    ],
+    "source": "huggingface:transfer_fee_charged"
+  },
+  {
+    "customer_id": "HF-00052",
+    "name": "Banking77 Account 52",
+    "plan": "Starter",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": -8.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "locations to withdraw money"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "\nWhich ATMs accept this card?"
+      },
+      {
+        "date": "2026-08-21",
+        "text": "How do I know which ATMs will accept this card?"
+      }
+    ],
+    "source": "huggingface:atm_support"
+  },
+  {
+    "customer_id": "HF-00053",
+    "name": "Banking77 Account 53",
+    "plan": "Starter",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": 12.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Cash withdrawal still pending?"
+      }
+    ],
+    "source": "huggingface:pending_cash_withdrawal"
+  },
+  {
+    "customer_id": "HF-00054",
+    "name": "Banking77 Account 54",
+    "plan": "Growth",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 12.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Since my card is about to expire, I need a new one."
+      }
+    ],
+    "source": "huggingface:card_about_to_expire"
+  },
+  {
+    "customer_id": "HF-00055",
+    "name": "Banking77 Account 55",
+    "plan": "Starter",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 9.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I'm still waiting for delivery of my new card, why is it taking so long?"
+      }
+    ],
+    "source": "huggingface:card_arrival"
+  },
+  {
+    "customer_id": "HF-00056",
+    "name": "Banking77 Account 56",
+    "plan": "Growth",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": 11.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I need my PIN"
+      }
+    ],
+    "source": "huggingface:get_physical_card"
+  },
+  {
+    "customer_id": "HF-00057",
+    "name": "Banking77 Account 57",
+    "plan": "Growth",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": -1.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I used an ATM in a foreign currency but the rate applied is wrong!"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "The exchange rate for my withdrawal isn't correct and doesn't match the actual exchange rate."
+      }
+    ],
+    "source": "huggingface:wrong_exchange_rate_for_cash_withdrawal"
+  },
+  {
+    "customer_id": "HF-00058",
+    "name": "Banking77 Account 58",
+    "plan": "Growth",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": 2.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "If I feel someone has my card information, can I get a new card?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "I don't recognize some of the transactions on my card, I think someone must have gotten my card info and used it."
+      },
+      {
+        "date": "2026-08-23",
+        "text": "My card is being used online to make a bunch of purchases! Someone else is using it fraudulently. Can you help me freeze it?"
+      }
+    ],
+    "source": "huggingface:compromised_card"
+  },
+  {
+    "customer_id": "HF-00059",
+    "name": "Banking77 Account 59",
+    "plan": "Starter",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 5.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Why has my payment not gone through?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "What does it mean by pending payment?"
+      },
+      {
+        "date": "2026-08-23",
+        "text": "When will my card payment be done pending?"
+      }
+    ],
+    "source": "huggingface:pending_card_payment"
+  },
+  {
+    "customer_id": "HF-00060",
+    "name": "Banking77 Account 60",
+    "plan": "Starter",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": 10.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "What happens if a merchant doesn't accept a payment?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "What is the reason that my card payment was cancelled?"
+      }
+    ],
+    "source": "huggingface:reverted_card_payment?"
+  },
+  {
+    "customer_id": "HF-00061",
+    "name": "Banking77 Account 61",
+    "plan": "Growth",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": -1.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "What foreign exchange rate will you use?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "Where did your guys exchange rates come from?"
+      },
+      {
+        "date": "2026-08-21",
+        "text": "I need to know your exchange rates."
+      }
+    ],
+    "source": "huggingface:exchange_rate"
+  },
+  {
+    "customer_id": "HF-00062",
+    "name": "Banking77 Account 62",
+    "plan": "Scale",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 6.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "How many virtual cards do I get?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "Can I make many disposable cards per day?"
+      }
+    ],
+    "source": "huggingface:disposable_card_limits"
+  },
+  {
+    "customer_id": "HF-00063",
+    "name": "Banking77 Account 63",
+    "plan": "Starter",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": -4.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Hi. I'm a new customer to your system and I think something isn't working right - or maybe it is. Maybe you can confirm. I tried to top up today (my first time ever) and it's been stuck at \"pending\" for over an hour now. Is it supposed to do this or is there something wrong in the system?"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "My card was topped this morning but I can't see the funds. Why didn't it complete?"
+      },
+      {
+        "date": "2026-08-23",
+        "text": "Hi I'm a new customer and tried topping up for the first time today, seems it's not working, the thing shows up as pending since half an hour already! Please fix it!"
+      }
+    ],
+    "source": "huggingface:pending_top_up"
+  },
+  {
+    "customer_id": "HF-00064",
+    "name": "Banking77 Account 64",
+    "plan": "Growth",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 6.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Why do I have to verify the top-up that I started?"
+      }
+    ],
+    "source": "huggingface:verify_top_up"
+  },
+  {
+    "customer_id": "HF-00065",
+    "name": "Banking77 Account 65",
+    "plan": "Starter",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 9.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I believe I left my smartphone at the hotel I was staying at."
+      },
+      {
+        "date": "2026-08-19",
+        "text": "my phone was taken! can you place cancel my account so no one uses it"
+      }
+    ],
+    "source": "huggingface:lost_or_stolen_phone"
+  },
+  {
+    "customer_id": "HF-00066",
+    "name": "Banking77 Account 66",
+    "plan": "Starter",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": -8.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Do you offer additional currency options?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "What currencies can I hold money in?"
+      }
+    ],
+    "source": "huggingface:fiat_currency_support"
+  },
+  {
+    "customer_id": "HF-00067",
+    "name": "Banking77 Account 67",
+    "plan": "Scale",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 6.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "The amount of cash I received was different than what I requested."
+      }
+    ],
+    "source": "huggingface:wrong_amount_of_cash_received"
+  },
+  {
+    "customer_id": "HF-00068",
+    "name": "Banking77 Account 68",
+    "plan": "Scale",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 1.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "What steps must I follow to get a Visa credit card?"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "Do you use Mastercard or Visa?"
+      }
+    ],
+    "source": "huggingface:visa_or_mastercard"
+  },
+  {
+    "customer_id": "HF-00069",
+    "name": "Banking77 Account 69",
+    "plan": "Scale",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 10.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Where can I view my PIN?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "I'v exhausted all the of times I can try my PIN"
+      },
+      {
+        "date": "2026-08-21",
+        "text": "How can I unlock the pin?"
+      }
+    ],
+    "source": "huggingface:pin_blocked"
+  },
+  {
+    "customer_id": "HF-00070",
+    "name": "Banking77 Account 70",
+    "plan": "Scale",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 3.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "what is the process for setting up a pin"
+      }
+    ],
+    "source": "huggingface:get_physical_card"
+  },
+  {
+    "customer_id": "HF-00071",
+    "name": "Banking77 Account 71",
+    "plan": "Growth",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": 7.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "The app is showing an ATM withdrawl that I didn't make."
+      },
+      {
+        "date": "2026-08-20",
+        "text": "My app shows some cash I didn't get."
+      }
+    ],
+    "source": "huggingface:cash_withdrawal_not_recognised"
+  },
+  {
+    "customer_id": "HF-00072",
+    "name": "Banking77 Account 72",
+    "plan": "Growth",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": 11.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Why did I get blocked?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "What can you do to unblock my pin?"
+      }
+    ],
+    "source": "huggingface:pin_blocked"
+  },
+  {
+    "customer_id": "HF-00073",
+    "name": "Banking77 Account 73",
+    "plan": "Growth",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": -6.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "What do I do if I notice a strange withdrawl in my statement?"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "There is an error, the app says I made an ATM withdrawal and I didn't."
+      }
+    ],
+    "source": "huggingface:cash_withdrawal_not_recognised"
+  },
+  {
+    "customer_id": "HF-00074",
+    "name": "Banking77 Account 74",
+    "plan": "Scale",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": -8.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I don't recognize some of the transactions on my card, I think someone must have gotten my card info and used it."
+      },
+      {
+        "date": "2026-08-20",
+        "text": "Someone else used my card!"
+      }
+    ],
+    "source": "huggingface:compromised_card"
+  },
+  {
+    "customer_id": "HF-00075",
+    "name": "Banking77 Account 75",
+    "plan": "Growth",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": 11.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Can I make multiple online transactions with my virtual card?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "How come my disposable virtual card used to pay for a gym subscription got rejected?"
+      }
+    ],
+    "source": "huggingface:virtual_card_not_working"
+  },
+  {
+    "customer_id": "HF-00076",
+    "name": "Banking77 Account 76",
+    "plan": "Growth",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 7.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I think someone is using my card to make transactions I don't remember."
+      },
+      {
+        "date": "2026-08-18",
+        "text": "I think someone has access to my card numbers that shouldn't."
+      },
+      {
+        "date": "2026-08-23",
+        "text": "How can I stop fraud on my account right now?"
+      }
+    ],
+    "source": "huggingface:compromised_card"
+  },
+  {
+    "customer_id": "HF-00077",
+    "name": "Banking77 Account 77",
+    "plan": "Growth",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": 10.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I want a card. What is the procedure?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "Please, how do I order a card?"
+      }
+    ],
+    "source": "huggingface:order_physical_card"
+  },
+  {
+    "customer_id": "HF-00078",
+    "name": "Banking77 Account 78",
+    "plan": "Scale",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 6,
+    "usage_change_pct": -19.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I don't find your services useful anymore, how do I delete my account?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "I wish to close my account. I do not like the service you provide."
+      }
+    ],
+    "source": "huggingface:terminate_account"
+  },
+  {
+    "customer_id": "HF-00079",
+    "name": "Banking77 Account 79",
+    "plan": "Starter",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 9.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "What is the limit to number of transactions I can do with a disposable card?"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "Are you able to explain the restrictions of the disposable cards?"
+      }
+    ],
+    "source": "huggingface:disposable_card_limits"
+  },
+  {
+    "customer_id": "HF-00080",
+    "name": "Banking77 Account 80",
+    "plan": "Growth",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": -5.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Can you tell me where I can order a virtual card?"
+      }
+    ],
+    "source": "huggingface:getting_virtual_card"
+  },
+  {
+    "customer_id": "HF-00081",
+    "name": "Banking77 Account 81",
+    "plan": "Starter",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": -7.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "What places will accept my card for payment?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "Is my card usable anywhere?"
+      }
+    ],
+    "source": "huggingface:card_acceptance"
+  },
+  {
+    "customer_id": "HF-00082",
+    "name": "Banking77 Account 82",
+    "plan": "Growth",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": 6.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Will you handle EUR?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "In terms of holding and exchange, what fiat currencies do you use."
+      },
+      {
+        "date": "2026-08-23",
+        "text": "Can I exchange currencies?"
+      }
+    ],
+    "source": "huggingface:fiat_currency_support"
+  },
+  {
+    "customer_id": "HF-00083",
+    "name": "Banking77 Account 83",
+    "plan": "Growth",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 4.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "why was my transfer declined"
+      }
+    ],
+    "source": "huggingface:declined_transfer"
+  },
+  {
+    "customer_id": "HF-00084",
+    "name": "Banking77 Account 84",
+    "plan": "Scale",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": -4.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I need a physical card."
+      }
+    ],
+    "source": "huggingface:order_physical_card"
+  },
+  {
+    "customer_id": "HF-00085",
+    "name": "Banking77 Account 85",
+    "plan": "Growth",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": 6.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "How come you charge for cash withdrawals? I withdrew cash after buying groceries today, and there seems to be a new fee"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "I got a fee for an ATM withdrawal."
+      }
+    ],
+    "source": "huggingface:cash_withdrawal_charge"
+  },
+  {
+    "customer_id": "HF-00086",
+    "name": "Banking77 Account 86",
+    "plan": "Scale",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": -2.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "My salary is in GBP; how can I note this in the app?"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "Can I use this account to receive my salary?"
+      }
+    ],
+    "source": "huggingface:receiving_money"
+  },
+  {
+    "customer_id": "HF-00087",
+    "name": "Banking77 Account 87",
+    "plan": "Scale",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": -8.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I did not make this card payment."
+      },
+      {
+        "date": "2026-08-18",
+        "text": "There are some payments with my card that I don't know where they are coming from. Just checked today and it's been since a couple days as well! What to I do? Can I revert this retrospectively? My card needs to be frozen immediately as well!"
+      }
+    ],
+    "source": "huggingface:card_payment_not_recognised"
+  },
+  {
+    "customer_id": "HF-00088",
+    "name": "Banking77 Account 88",
+    "plan": "Starter",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": 6.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "If my card payment is cancelled, what should I do?"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "Hi, I would like to file a claim for an inquiry. I am a frequent customer of the company in question and have never had any issue with my purchases, payments, or otherwise. However, the price deducted for an item I purchased a couple of weeks ago has been returned to my checking account. Was there an issue with my payment? The item has already been delivered to me."
+      }
+    ],
+    "source": "huggingface:reverted_card_payment?"
+  },
+  {
+    "customer_id": "HF-00089",
+    "name": "Banking77 Account 89",
+    "plan": "Starter",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 5,
+    "usage_change_pct": -31.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I think my card is broken"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "My card isn't working anymore."
+      },
+      {
+        "date": "2026-08-21",
+        "text": "Nothing goes through on my card."
+      }
+    ],
+    "source": "huggingface:card_not_working"
+  },
+  {
+    "customer_id": "HF-00090",
+    "name": "Banking77 Account 90",
+    "plan": "Growth",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": -5.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "What is the limit to top up?"
+      }
+    ],
+    "source": "huggingface:top_up_limits"
+  },
+  {
+    "customer_id": "HF-00091",
+    "name": "Banking77 Account 91",
+    "plan": "Growth",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 0,
+    "usage_change_pct": 5.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "How do I find the verification code for my top-up card?"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "Where do I find the top-up verification code?"
+      },
+      {
+        "date": "2026-08-21",
+        "text": "Why am i to verify the top-ups?"
+      }
+    ],
+    "source": "huggingface:verify_top_up"
+  },
+  {
+    "customer_id": "HF-00092",
+    "name": "Banking77 Account 92",
+    "plan": "Scale",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": 10.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "My phone is not with me at the moment so I will not be able to access the app."
+      },
+      {
+        "date": "2026-08-20",
+        "text": "My phone was stolen yesterday.  What should I do?"
+      },
+      {
+        "date": "2026-08-23",
+        "text": "I can't find my phone."
+      }
+    ],
+    "source": "huggingface:lost_or_stolen_phone"
+  },
+  {
+    "customer_id": "HF-00093",
+    "name": "Banking77 Account 93",
+    "plan": "Scale",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": -3.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Cash withdrawal still pending?"
+      }
+    ],
+    "source": "huggingface:pending_cash_withdrawal"
+  },
+  {
+    "customer_id": "HF-00094",
+    "name": "Banking77 Account 94",
+    "plan": "Growth",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": -5.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "My American Express is in my Apple Pay and the top up is failing, why?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "Does Apple Pay give the option to top up?"
+      }
+    ],
+    "source": "huggingface:apple_pay_or_google_pay"
+  },
+  {
+    "customer_id": "HF-00095",
+    "name": "Banking77 Account 95",
+    "plan": "Growth",
+    "monthly_value": 450.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": -6.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Is there a fee when you pay with your card?"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "Why was I charged an extra fee when using a card?"
+      }
+    ],
+    "source": "huggingface:card_payment_fee_charged"
+  },
+  {
+    "customer_id": "HF-00096",
+    "name": "Banking77 Account 96",
+    "plan": "Starter",
+    "monthly_value": 3200.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": -7.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Why is a payment showing up on my card as pending?"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "I recently made a payment, and it is showing up in my account as \"pending\". What does that mean?"
+      }
+    ],
+    "source": "huggingface:pending_card_payment"
+  },
+  {
+    "customer_id": "HF-00097",
+    "name": "Banking77 Account 97",
+    "plan": "Starter",
+    "monthly_value": 1800.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 1,
+    "usage_change_pct": 1.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "Is my card usable anywhere?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "Who accepts my card?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "Can I make online purchases with my card?"
+      }
+    ],
+    "source": "huggingface:card_acceptance"
+  },
+  {
+    "customer_id": "HF-00098",
+    "name": "Banking77 Account 98",
+    "plan": "Scale",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 2,
+    "usage_change_pct": 9.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "I receive my salary in GBP. Do I need to configure this somehwere?"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "I get paid in GBP. Should I configure this and if so, where?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "How can I get paid in a different currency?"
+      }
+    ],
+    "source": "huggingface:receiving_money"
+  },
+  {
+    "customer_id": "HF-00099",
+    "name": "Banking77 Account 99",
+    "plan": "Scale",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": 1.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "The app doesn't show the card I received."
+      },
+      {
+        "date": "2026-08-19",
+        "text": "I received my new card, but I don't see it in the app anywhere.  What do I do?"
+      },
+      {
+        "date": "2026-08-19",
+        "text": "Can I link my new card?"
+      }
+    ],
+    "source": "huggingface:card_linking"
+  },
+  {
+    "customer_id": "HF-00100",
+    "name": "Banking77 Account 100",
+    "plan": "Scale",
+    "monthly_value": 900.0,
+    "satisfaction_score": null,
+    "support_tickets_30d": 3,
+    "usage_change_pct": -2.0,
+    "payment_failed": false,
+    "transcripts": [
+      {
+        "date": "2026-08-17",
+        "text": "how do i get a virtual card for one time use"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "Is it possible to also get a disposable virtual card?"
+      },
+      {
+        "date": "2026-08-21",
+        "text": "How do disposable cards work?"
+      }
+    ],
+    "source": "huggingface:get_disposable_virtual_card"
+  }
+]
