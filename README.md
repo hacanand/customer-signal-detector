@@ -7,6 +7,97 @@ Traditional customer retention processes are reactive and siloed. This prototype
 
 Instead of relying on rigid, rule-based thresholds, it feeds this holistic customer profile into a highly optimized Large Language Model prompt. The AI evaluates the customer's sentiment progression over time to infer a dynamic Customer Satisfaction (CSAT) score, calculates an overall churn risk score (0-100), and outputs a fact-grounded rationale with a recommended next step for the retention team.
 
+## Architecture Design & Data Flow
+
+```mermaid
+graph TD
+    subgraph Frontend [Next.js UI]
+        A[Dashboard Dashboard View]
+        A -- "GET /api/sample-analysis" --> B[Next.js API Proxy]
+    end
+    
+    subgraph Backend [FastAPI Microservice]
+        B -- "Proxies Request" --> C[Ingestion / Repository Layer]
+        C -- "Batches Customers" --> D[Analysis Service]
+        D -- "Validates Cache" --> E[(async-lru Memory Cache)]
+        D -- "Scores Uncached" --> F{LlmRiskScorer}
+    end
+    
+    subgraph LLM Engine [Groq LPU Inference]
+        F -- "Constructs Prompt" --> G["Groq API (Llama-3.3-70B)"]
+        G -- "Returns strict JSON" --> F
+    end
+    
+    subgraph Outputs
+        F -- "RiskAssessment" --> D
+        D -- "SignalResult" --> H[REST API Response]
+        H -- "Renders Dashboard" --> A
+    end
+```
+
+### Data Flow Execution:
+1. **Ingestion & Request:** The user hits the Next.js dashboard, triggering a call to the FastAPI backend. The repository layer dynamically loads the synthetic dataset (`PolyAI/banking77`) and structures it into chronologically sorted longitudinal multi-day arrays.
+2. **Throttling & Batching:** The `AnalysisService` batches these customers and passes them through an `asyncio.Semaphore` to throttle concurrency, strictly respecting Groq's 8,000 Tokens Per Minute limits.
+3. **Semantic Caching:** The LLM prompt is hashed; if a cached result exists in `async-lru`, it is instantly returned, saving API quotas and reducing latency to zero.
+4. **Scoring:** For cache misses, `LlmRiskScorer` queries the Groq API. If a `429 Rate Limit` occurs, a `tenacity` exponential backoff triggers transparently.
+5. **Presentation:** The LLM returns a strictly typed JSON payload containing the computed Risk Score, CSAT, rationale, and recommended actions, which is serialized through Pydantic back to the frontend.
+
+## Future Enhancements & Production Architecture
+While the current prototype uses a synchronous monolithic loop for fast feedback, the target production architecture would evolve into an event-driven, horizontally scalable microservice ecosystem capable of analyzing millions of signals per day.
+
+```mermaid
+graph TD
+    %% External Integrations
+    subgraph Data Sources [Upstream Data Integrations]
+        CRM[Salesforce / Zendesk Webhooks]
+        Billing[Stripe Billing Events]
+        Telemetry[Product Usage Telemetry]
+    end
+
+    %% Ingress and Queuing
+    subgraph Event Backbone
+        GW[API Gateway / Load Balancer]
+        Kafka[(Apache Kafka Event Bus)]
+        DLQ[(Dead Letter Queue)]
+    end
+
+    %% Microservices
+    subgraph Compute Compute Cluster [Kubernetes]
+        Ingest[Ingestion & Normalization Service]
+        Worker[LLM Scoring Worker Pool]
+        Redis[(Redis Cache)]
+    end
+
+    %% External APIs
+    subgraph External LLM
+        Groq["Groq API (Llama-3.3-70B)"]
+    end
+
+    %% Storage and Analytics
+    subgraph Persistence & Analytics
+        PG[(PostgreSQL - Operational DB)]
+        Snowflake[(Data Warehouse)]
+        Grafana[Prometheus / Grafana Monitoring]
+    end
+
+    %% Flow Definitions
+    CRM & Billing & Telemetry --> GW
+    GW --> Ingest
+    Ingest --> Kafka
+    Kafka --> Worker
+    Worker -- "1. Cache Check" --> Redis
+    Worker -- "2. Cache Miss / LLM Request" --> Groq
+    Worker -- "3. Error Fallback" --> DLQ
+    Worker -- "4. Commit Results" --> PG
+    PG -- "CDC / ETL" --> Snowflake
+    Worker -. "Metrics" .-> Grafana
+```
+
+### Production Enhancements:
+- **Asynchronous Event Processing:** Replacing the synchronous REST batching with an Apache Kafka stream and background Kubernetes worker nodes to handle massive traffic spikes resiliently.
+- **Agentic Actions:** Transitioning from merely suggesting a "Recommended Action" to directly calling functions (e.g., automatically drafting Zendesk emails or issuing Stripe refunds) via LLM tool-calling.
+- **Model Fine-Tuning:** As the dataset of accurate scores grows, transitioning from prompting a versatile 70B model to a cost-effective, fine-tuned 8B local model.
+
 ## Tools Used
 - **Backend Core:** Python 3.12 with FastAPI for a high-performance, asynchronous REST API.
 - **Frontend Dashboard:** Next.js (React) and Tailwind CSS for the user interface.

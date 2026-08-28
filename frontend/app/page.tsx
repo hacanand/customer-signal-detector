@@ -6,7 +6,7 @@ import { Activity, AlertTriangle, ArrowUpRight, CheckCircle2, ChevronRight, Circ
 type Customer = { customer_id:string; name:string; plan:string; monthly_value:number; satisfaction_score?:number; support_tickets_30d:number; usage_change_pct:number; payment_failed:boolean; transcript:string };
 type Result = { customer:Customer; risk_score:number; risk_level:"Critical"|"High"|"Watch"|"Healthy"; signals:string[]; reasons:string[]; rationale:string; recommended_action:string };
 type Summary = { total?:number; critical?:number; high?:number; watch?:number; healthy?:number; revenue_at_risk?:number };
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API = process.env.NEXT_PUBLIC_API_URL || "";
 const levels = ["Critical", "High", "Watch", "Healthy"] as const;
 const levelColor = { Critical:"#fb7185", High:"#f59e0b", Watch:"#8b5cf6", Healthy:"#22c55e" };
 
