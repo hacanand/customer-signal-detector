@@ -4,3 +4,7 @@ backend/__pycache__/
 backend/*.pyc
 frontend/node_modules/
 frontend/.next/ 
+backend/.pytest_cache
+.pytest_cache/
+.env
+backend/tests/__pycache__
